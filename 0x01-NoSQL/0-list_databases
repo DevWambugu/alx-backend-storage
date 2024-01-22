@@ -1,0 +1,2 @@
+// This script lists all mongo databases
+db.adminCommand('listDatabases')
