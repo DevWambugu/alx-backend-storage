@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-'''12-log_stats'''
+'''12-log_stats provides some stats
+about Nginx logs stored in MongoDB'''
 
 
 import pymongo
+
+
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["logs"]
 collection = db["nginx"]
